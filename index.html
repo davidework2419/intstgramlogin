@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login • Instagram</title>
+  <link rel="icon" href="images/insta_logo.png">
+  <style type="text/css">
+    * {
+      font: inherit;
+	  margin: 0px;
+	  padding: 0px;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+a{
+	text-decoration: none;
+}
+
+#wrapper {
+  width: 500px;
+  height: 50%;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: 50px auto;
+  margin-top:  20px !important;
+  padding: 10px;
+  padding-bottom: 0.5% !important;
+  margin-bottom: 15px;
+}
+
+.main-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  border: 2px solid #e6e6e6;
+  padding: 40px 50px;
+  background-color: #FFFFFF;
+  padding-top: 0px;
+
+}
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 5px;
+}
+
+.header img {
+  height: 50px;
+  width: 175px;
+  margin: auto;
+  margin-top:22px;
+  position: relative;
+  left: 40px;
+}
+
+.input-1,
+.input-2 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 9px 9px 7px 8px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #FAFAFA;
+  font-size: 12px;
+}
+.input-1:focus {
+	outline: none !important;
+    border:1px solid silver;
+  	padding-bottom: 2px;
+}
+.input-2:focus {
+	outline: none !important;
+    border:1px solid silver;
+  	padding-bottom: 2px;
+
+}
+.overlap-text {
+  position: relative;
+}
+
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #DBDBDB;
+  font-size: 14px;
+  text-decoration: none;
+  
+}
+
+.btn {
+  width: 100%;
+  background-color: #0095F6;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 9px;
+}
+
+.sub-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  border: 1px solid #e6e6e6;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+.s-part {
+  text-align: center;
+  font-weight: normal;
+}
+
+.s-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-weight: normal;
+}
+.text2{
+	text-align: center;
+	color: #8E8E8E;
+}
+.undertext1{
+	color: #8E8E8E !important; 
+	text-align: center;
+}
+.undertext2{
+	color: #8E8E8E !important; 
+	text-align: center;
+	padding-top: 3vh;
+}
+.undertext1 a{
+	color: #8E8E8E !important; 
+	text-decoration: none !important;
+	text-align: center;
+	font-size: 13px;
+}
+.undertext2 a{
+	color: #8E8E8E !important; 
+	text-decoration: none !important;
+	text-align: center;
+	font-size: 13px;
+
+}
+.get_app_text {
+	text-align: center;
+	margin-bottom: 10px;		
+	margin-top: 10px;		
+}
+.get_app_icon{
+	width: 134.28px;
+	height: 40px;
+}
+.apps{
+	text-align: center;
+}
+.or{
+     display: block;
+}
+.hr {
+   color: #8E8E8E;
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #DBDBDB; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.hror{ 
+    background:#fff; 
+    padding:0 10px; 
+}
+.facebook_login{
+	text-align: center;
+}
+.facebook_logo{
+	width: 15px;
+	height: 15px;
+	text-align: left;
+}
+.facebook_text{
+	margin-left: 0px;
+	float: right;
+	color: #385185;
+}
+.forgot{
+	text-align: center;
+	color: #00376B;
+	font:inherit;
+	font-size:14px ;
+}
+
+  </style>
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
+<div id="wrapper">
+	<br>
+	<br>
+  <h4 class='text2'>Log in to continue</h4>
+  <div class="main-content">
+    <div class="header">
+      <img src="https://i.imgur.com/zqpwkLQ.png" />
+    </div>
+    <br>
+    <form>
+    <div class="l-part">
+      <input type="text" placeholder="Phone number, username or email" class="input-1" />
+      <div class="overlap-text">
+        <input type="password" placeholder="Password" class="input-2" />
+      </div>
+      <a href='https://www.instagram.com/accounts/login/?source=auth_switcher'><input type="button" value="Log in" class="btn" /> </a>
+    </div>
+    <br>
+    <h4 class="hr"><span class='hror'>OR</span></h4>
+    <br>
+    <a href="">
+    <div class="facebook_login">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="images/facebook.png" class="facebook_logo"> <h5 class="facebook_text">&nbsp&nbspLog in with Facebook &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h5></div>
+	</a>
+	<br>
+	<a href=''>
+	<h6 class="forgot">Forgot password?</h6>
+	</a>
+</form>
+  </div>
+  <div class="sub-content">
+    <div class="s-part">
+      Don't have an account?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">Sign up</a>
+    </div>
+  </div>
+  <h4 class="get_app_text">Get the app.</h4>
+  <div class="apps">
+  	<a href="">
+  <img class='get_app_icon' src="images/appstore.png" alt="Simply Easy Learning">
+  <img class='get_app_icon' src="images/playstore.png" alt="Simply Easy Learning">
+  	</a>
+  </div>
+</div>
+<h6 class='undertext1'><a href=''>About&nbsp &nbsp&nbsp&nbspBlog&nbsp &nbsp&nbsp&nbspJobs&nbsp &nbsp&nbsp&nbspHelp&nbsp &nbsp&nbsp&nbspAPI&nbsp &nbsp&nbsp&nbspPrivacy&nbsp &nbsp&nbsp&nbspTerms&nbsp &nbsp&nbsp&nbspTop Accounts&nbsp &nbsp&nbsp&nbspHashtags&nbsp &nbsp&nbsp&nbspLocations</a></h6>
+
+<h6 class='undertext2'><a href=''>English &nbsp&nbsp&nbsp&nbsp @2020 Instagramfrom Facebook </a></h6> 
+
+</body>
+</html>
